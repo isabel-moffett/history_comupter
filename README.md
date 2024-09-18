@@ -6,14 +6,13 @@
         </title>
  </head>
    
-  <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Who is Bill Gates')">Who is Bill Gates</button>
+ <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
-  <!-- Tab content -->
-<div id="Who is Bill Gates" class="tabcontent">
+
+<div id="London" class="tabcontent">
   <h3>London</h3>
   <p>London is the capital city of England.</p>
 </div>
@@ -27,4 +26,3 @@
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div>
-</html>
